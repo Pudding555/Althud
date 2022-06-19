@@ -7,6 +7,9 @@ Hiiiiiii so the objective of this hud is to basically make a hud that fits the T
 Credits:
 
 Peachud for the inspiration
+
 Raysfire and the HUDS.tf discord for helping me
+
 Hipnotize hud for part of the Icons and anchor system
+
 Improved Default hud for the damage numbers 
