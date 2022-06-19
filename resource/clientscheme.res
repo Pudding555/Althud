@@ -3069,56 +3069,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
-		"TF2 Build18"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"22"
-				"antialias" "1"
-			}
-		}
-		
-		"TF2 Build20"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"22"
-				"antialias" "1"
-			}
-		}
-		
-		"TF2 Build22"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"22"
-				"antialias" "1"
-			}
-		}
-		
-		"TF2 Build24"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"22"
-				"antialias" "1"
-			}
-		}
-		
-		"TF2 Build26"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"22"
-				"antialias" "1"
-			}
-		}
+
 	}
 	
 //////////////////// INSTALLED CUSTOM FONTS //////////////////////////

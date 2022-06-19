@@ -230,7 +230,7 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate PlayerStatusHealthValue 		FgColor		"255 75 75 255"		Linear 0 0
+	Animate PlayerStatusHealthValue 		FgColor		"175 0 0 255"		Linear 0 0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -253,11 +253,11 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate		AmmoInClip			FgColor		"255 75 75 255" 	Linear 	0.0 	0.0
+	Animate		AmmoInClip			FgColor		"175 0 0 255" 	Linear 	0.0 	0.0
 
-	Animate		AmmoInReserve		FgColor 	"255 75 75 255"		Linear 	0.0 	0.0
+	Animate		AmmoInReserve		FgColor 	"175 0 0 255"	Linear 	0.0 	0.0
 	
-	Animate 	AmmoNoClip 			FgColor 	"255 75 75 255" 	Linear 	0.0 	0.0
+	Animate 	AmmoNoClip 			FgColor 	"175 0 0 255" 	Linear 	0.0 	0.0
 
 }
 
