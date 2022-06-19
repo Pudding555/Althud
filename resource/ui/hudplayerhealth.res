@@ -6,9 +6,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"cs-1.0-60"	[$WIN32]
-		"ypos"			"c14"	[$WIN32]
+		"ypos"			"c21"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"200"
+		"wide"			"300"
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -18,21 +18,19 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
 	
-	"PlayerStatusAnchor" // I have both 0 patience and 0 fucking clue of how anchors work so I just copied the code from hipnotize hud all credits go to him
+	"PlayerStatusAnchor" // I have both 0 patience and 0 fucking clue of how anchors work so I just copied part of the code from hipnotize hud all credits go to him
 	{
 		"ControlName"				         		"EditablePanel"
 		"fieldName"				         			"PlayerStatusAnchor"
-		"xpos"					         			"-45"
-		"xpos_minmode"					         	"-38"
+		"xpos"					         			"-130"
 		"ypos"					         			"-12"
-		"ypos_minmode"					         	"-16"
 		"wide"					         			"2"
 		"tall"					         			"30"
 		"visible"				         			"1"
 		"enabled"				         			"1"
 		
 		"pin_to_sibling"							"PlayerStatusHealthValue"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPCENTER"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
@@ -40,7 +38,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"55"
+		"xpos"			"155"
 		"xpos_minmode"	"60"
 		"ypos"			"64"
 		"zpos"			"4"
@@ -54,7 +52,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"53"
+		"xpos"			"153"
 		"xpos_minmode"	"58"
 		"ypos"			"63"
 		"zpos"			"3"
@@ -69,7 +67,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"59"	[$WIN32]
+		"xpos"			"159"	[$WIN32]
 		"ypos"			"68"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"16"	[$WIN32]
@@ -83,7 +81,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
-		"xpos"			"88"	[$WIN32]
+		"xpos"			"188"	[$WIN32]
 		"ypos"			"94"	[$WIN32]
 		"wide"			"75"	[$WIN32]
 		"tall"			"2"	[$WIN32]
@@ -99,8 +97,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
+		"xpos"			"176"
 		"ypos"			"52"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"100"
@@ -118,7 +115,7 @@
 		"fieldName"		"HealthShadow"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
-		"xpos"			"77"
+		"xpos"			"177"
 		"xpos_minmode"	"9"
 		"xpos_hidef"	"2"
 		"ypos"			"53"

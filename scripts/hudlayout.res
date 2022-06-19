@@ -1,6 +1,6 @@
 "Resource/HudLayout.res"
 {
-	HudPlayerStatus
+	HudPlayerStatus // Thanks VillagerGreenPreserver for the help with positioning!
 	{
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
