@@ -12,10 +12,10 @@
 		"delta_item_font"		"HudFontMediumSmallBold"
 		"delta_item_font_big"	"HudFontMediumBold"
 	}
-	"CDamageAccountValue" // Part of this code was taken from Improved Default HUD! All credits go to its creators
+	"DamageIndicator" // Part of this code was taken from Improved Default HUD! All credits go to its creators
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"CDamageAccountValue"
+		"fieldName"				"DamageIndicator"
 		"fgcolor"				"TanLight"
 		"font"					"TF2 Build16"
 		"xpos"					"278"
@@ -28,10 +28,10 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"left"
 	}
-	"CDamageAccountValueShadow"
+	"DamageIndicatorShadow"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"CDamageAccountValueShadow"
+		"fieldName"				"DamageIndicatorShadow"
 		"fgcolor"				"Black"
 		"font"					"TF2 Build16"
 		"xpos"					"279"

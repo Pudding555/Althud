@@ -77,10 +77,10 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	"TeamIndicator"
+	"TeamIndicatorHealth"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamIndicator"
+		"fieldName"		"TeamIndicatorHealth"
 		"xpos"			"188"	[$WIN32]
 		"ypos"			"94"	[$WIN32]
 		"wide"			"75"	[$WIN32]

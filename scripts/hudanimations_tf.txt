@@ -201,7 +201,7 @@ event KeyHintMessageHide
 	Animate HudHintKeyDisplay Alpha	0 Linear 0.0 0.5
 }
 
-//===========================================
+//========================================================================================================
 
 //Health Bonus Pulse
 event HudHealthBonusPulse
@@ -432,31 +432,46 @@ event HudTournamentSetupPanelClose
 //====================================
 
 // Flash the medic charge hud when we have full charge
+// Code Taken from Xhud, make sure to try it out if you want too!
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
-	
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeMeter 				FgColor		"255 000 000 255"				Linear 	0	1
+	Animate	ChargeMeter 				FgColor		"000 255 000 255"				Linear 	1	1
+	Animate	ChargeMeter 				FgColor		"000 000 255 255"				Linear 	2	1
 
-	RunEvent HudMedicChargedLoop	0.6
+	Animate	ChargeMeter1 				FgColor		"255 000 000 255"				Linear 	0	1
+	Animate	ChargeMeter1 				FgColor		"000 255 000 255"				Linear 	1	1
+	Animate	ChargeMeter1 				FgColor		"000 000 255 255"				Linear 	2	1
+	Animate	ChargeMeter2 				FgColor		"255 000 000 255"				Linear 	0	1
+	Animate	ChargeMeter2 				FgColor		"000 255 000 255"				Linear 	1	1
+	Animate	ChargeMeter2				FgColor		"000 000 255 255"				Linear 	2	1
+	Animate	ChargeMeter3 				FgColor		"255 000 000 255"				Linear 	0	1
+	Animate	ChargeMeter3 				FgColor		"000 255 000 255"				Linear 	1	1
+	Animate	ChargeMeter3 				FgColor		"000 000 255 255"				Linear 	2	1
+	Animate	ChargeMeter4 				FgColor		"255 000 000 255"				Linear 	0	1
+	Animate	ChargeMeter4				FgColor		"000 255 000 255"				Linear 	1	1
+	Animate	ChargeMeter4 				FgColor		"000 000 255 255"				Linear 	2	1
+
+	RunEvent HudMedicChargedLoop		3
 }
 
-// call to loop HudHealthBonusPulse
 event HudMedicChargedLoop
 {
-	RunEvent HudMedicCharged 0.0
+	RunEvent HudMedicCharged 			0.0
 }
 
 event HudMedicChargedStop
 {
-	StopEvent HudMedicCharged 0.0
-	StopEvent HudMedicChargedLoop 0.0
-	
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	StopEvent HudMedicCharged 			0.0
+	StopEvent HudMedicChargedLoop 		0.0
+
+	Animate	ChargeMeter 				FgColor		"White"				Linear 	0	0.001
+
+	Animate	ChargeMeter1 				FgColor		"White"				Linear 	0	0.001
+	Animate	ChargeMeter2 				FgColor		"White"				Linear 	0	0.001
+	Animate	ChargeMeter3 				FgColor		"White"				Linear 	0	0.001
+	Animate	ChargeMeter4 				FgColor		"White"				Linear 	0	0.001
 }
 
 //====================================
@@ -773,13 +788,10 @@ event NotificationsPresentBlinkStop
 	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
 }
 
-//===========================================
-
+//=================================================
 event DamagedPlayer
 {
-	// empty
 }
-
 //===========================================
 
 event SpyWarningFlash
