@@ -8,6 +8,8 @@ Credits and Contributions
 
 Peachud for the inspiration
 
+Xhud for the rainbow Über bar
+
 Raysfire and the HUDS.tf discord for helping me
 
 Hipnotize hud for part of the Icons and anchor system
