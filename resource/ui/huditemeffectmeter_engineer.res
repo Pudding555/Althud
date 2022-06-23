@@ -52,7 +52,7 @@
 		"textAlignment"				"center"
 		"dulltext"					"0"
 		"brighttext"				"0"
-		"font"						"HudFontSmallBold"
+		"font"						"ItemFontNameSmall"
 	}	
 
 	"ItemEffectMeter"
@@ -81,7 +81,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"63"
+		"xpos"					"52"
 		"ypos"					"27"
 		"zpos"					"2"
 		"wide"					"44"
@@ -94,7 +94,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TF2 Build16"
+		"font"					"ItemFontNameLarge"
 		"fgcolor"				"TanLight"
 	}
 }

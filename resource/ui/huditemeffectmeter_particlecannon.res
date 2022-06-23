@@ -52,7 +52,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TF2 Build16"
+		"font"					"HudFontSmallishBold"
 	}
 
 	"ItemEffectMeter"
