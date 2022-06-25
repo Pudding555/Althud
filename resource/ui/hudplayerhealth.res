@@ -87,11 +87,11 @@
 		"tall"			"2"	[$WIN32]
 		"visible"		"1"
 		"enabled"		"1"
-		"image"				"../Whitepanel"
+		"image"				"replay/thumbnails/Whitepanel"
 		"scaleImage"	"1"	
-		"teambg_1"			"../Whitepanel"
-		"teambg_2"			"../Redpanel"
-		"teambg_3"			"../Bluepanel"
+		"teambg_1"			"replay/thumbnails/Whitepanel"
+		"teambg_2"			"replay/thumbnails/Redpanel"
+		"teambg_3"			"replay/thumbnails/Bluepanel"
 	}
 	"PlayerStatusHealthValue"
 	{

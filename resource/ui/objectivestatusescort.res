@@ -78,7 +78,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
-		"xpos"			"64"	
+		"xpos"			"64"
 		"ypos"			"116"
 		"zpos"			"1"
 		"wide"			"18"
@@ -89,7 +89,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_track
+		"image"			"../hud/cart_home_blue"
 		"scaleImage"	"1"	
 		
 		"if_team_red"
@@ -141,8 +141,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"	
-		"xpos"			"65"		
-		"ypos"			"116"
+		"xpos"			"65"
+		"ypos"			"116"	
 		"zpos"			"1"
 		"wide"			"18"	
 		"tall"			"18"
@@ -173,7 +173,7 @@
 		"ypos"			"48"
 		"zpos"			"2"
 		"wide"			"52"
-		"tall"			"75"	
+		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
 				
@@ -189,11 +189,11 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"ItemFontAttribSmall"				
-			"xpos"			"23"			
-			"ypos"			"53"		
+			"font"			"ItemFontAttribSmall"		
+			"xpos"			"23"
+			"ypos"			"60"		
 			"zpos"			"2"
-			"wide"			"7"
+			"wide"			"8"
 			"tall"			"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -243,12 +243,12 @@
 			
 			"if_team_blue"
 			{
-				"image"			"../hud/cart_blue"
+				"image"			"replay/thumbnails/payload/cart_blue"
 			}		
 			
 			"if_team_red"
 			{
-				"image"			"../hud/cart_red"
+				"image"			"replay/thumbnails/payload/cart_red"
 			}
 			
 			"if_multiple_trains"
@@ -271,7 +271,7 @@
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
@@ -327,7 +327,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"	
 			"xpos"			"23"
-			"ypos"			"53"
+			"ypos"			"60"
 			"zpos"			"2"
 			"wide"			"7"
 			"tall"			"7"
@@ -349,7 +349,7 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"54"
 			}	
 			
 			"if_multiple_trains_bottom"
@@ -362,8 +362,8 @@
 		{
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"CapPlayerImage"
-			"xpos"			"20"
-			"ypos"			"52"
+			"xpos"			"22"
+			"ypos"			"59"
 			"zpos"			"3"
 			"wide"			"4"
 			"tall"			"8"
@@ -374,14 +374,14 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"20"
+				"xpos"			"22"
 				"wide"			"5"
 				"tall"			"10"
 			}
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"45"
+				"ypos"			"54"
 			}	
 			
 			"if_multiple_trains_bottom"
@@ -395,8 +395,8 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
 			"font"			"ItemFontAttribSmall"
-			"xpos"			"25"
-			"ypos"			"53"
+			"xpos"			"27"
+			"ypos"			"59"
 			"zpos"			"4"
 			"wide"			"20"
 			"tall"			"7"
@@ -412,14 +412,14 @@
 			"if_multiple_trains"
 			{
 				"font"			"ItemFontAttribSmall"
-				"xpos"			"25"
+				"xpos"			"27"
 				"wide"			"30"
 				"tall"			"10"
 			}			
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"54"
 			}										
 			
 			"if_multiple_trains_bottom"
@@ -455,7 +455,8 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"54"
+				"fgcolor_override"		"Blue"
 			}	
 			
 			"if_multiple_trains_bottom"
@@ -469,9 +470,9 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"EscortTeardrop"
 			"xpos"				"9"
-			"ypos"				"8"	
+			"ypos"				"8"		
 			"zpos"				"20"
-			"wide"				"65"		
+			"wide"				"65"	
 			"tall"				"42"		
 			"visible"			"0"
 			"enabled"			"1"

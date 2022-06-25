@@ -230,7 +230,7 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate PlayerStatusHealthValue 		FgColor		"175 0 0 255"		Linear 0 0
+	Animate PlayerStatusHealthValue 		FgColor		"255 0 0 255"		Linear 0 0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -253,11 +253,11 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate		AmmoInClip			FgColor		"175 0 0 255" 	Linear 	0.0 	0.0
+	Animate		AmmoInClip			FgColor		"255 0 0 255" 	Linear 	0.0 	0.0
 
-	Animate		AmmoInReserve		FgColor 	"175 0 0 255"	Linear 	0.0 	0.0
+	Animate		AmmoInReserve		FgColor 	"255 0 0 255"	Linear 	0.0 	0.0
 	
-	Animate 	AmmoNoClip 			FgColor 	"175 0 0 255" 	Linear 	0.0 	0.0
+	Animate 	AmmoNoClip 			FgColor 	"255 0 0 255" 	Linear 	0.0 	0.0
 
 }
 
@@ -432,60 +432,58 @@ event HudTournamentSetupPanelClose
 //====================================
 
 // Flash the medic charge hud when we have full charge
-// Code Taken from Xhud, make sure to try it out if you want too!
 
 event HudMedicCharged
-{
-	Animate	ChargeMeter 				FgColor		"255 000 000 255"				Linear 	0	1
-	Animate	ChargeMeter 				FgColor		"000 255 000 255"				Linear 	1	1
-	Animate	ChargeMeter 				FgColor		"000 000 255 255"				Linear 	2	1
+{	
+	Animate	IndividualChargesLabel 	BgColor		"21 207 100 255"		Linear 0.0 0.1
+	Animate	IndividualChargesLabel	BgColor		"15 95 14 255"			Linear 0.3 0.4
 
-	Animate	ChargeMeter1 				FgColor		"255 000 000 255"				Linear 	0	1
-	Animate	ChargeMeter1 				FgColor		"000 255 000 255"				Linear 	1	1
-	Animate	ChargeMeter1 				FgColor		"000 000 255 255"				Linear 	2	1
-	Animate	ChargeMeter2 				FgColor		"255 000 000 255"				Linear 	0	1
-	Animate	ChargeMeter2 				FgColor		"000 255 000 255"				Linear 	1	1
-	Animate	ChargeMeter2				FgColor		"000 000 255 255"				Linear 	2	1
-	Animate	ChargeMeter3 				FgColor		"255 000 000 255"				Linear 	0	1
-	Animate	ChargeMeter3 				FgColor		"000 255 000 255"				Linear 	1	1
-	Animate	ChargeMeter3 				FgColor		"000 000 255 255"				Linear 	2	1
-	Animate	ChargeMeter4 				FgColor		"255 000 000 255"				Linear 	0	1
-	Animate	ChargeMeter4				FgColor		"000 255 000 255"				Linear 	1	1
-	Animate	ChargeMeter4 				FgColor		"000 000 255 255"				Linear 	2	1
+	Animate	ChargeLabel 	FgColor		"21 207 100 255"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"15 95 14 100"			Linear 0.3 0.4
 
-	RunEvent HudMedicChargedLoop		3
+	Animate	ChargeMeter 	FgColor		"21 207 100 255"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"15 95 14 100"			Linear 0.3 0.4
+	
+	Animate	ChargeMeter1 	FgColor		"21 207 100 255"		Linear 0.0 0.1
+	Animate	ChargeMeter1 	FgColor		"15 95 14 100"			Linear 0.3 0.4
+	
+	Animate	ChargeMeter2 	FgColor		"21 207 100 255"		Linear 0.0 0.1
+	Animate	ChargeMeter2 	FgColor		"15 95 14 100"			Linear 0.3 0.4
+	
+	Animate	ChargeMeter3 	FgColor		"21 207 100 255"		Linear 0.0 0.1
+	Animate	ChargeMeter3 	FgColor		"15 95 14 100"			Linear 0.3 0.4
+	
+	Animate	ChargeMeter4 	FgColor		"21 207 100 255"		Linear 0.0 0.1
+	Animate	ChargeMeter4 	FgColor		"15 95 14 100"			Linear 0.3 0.4
+
+	RunEvent HudMedicChargedLoop	0.6
 }
 
+// call to loop HudHealthBonusPulse
 event HudMedicChargedLoop
 {
-	RunEvent HudMedicCharged 			0.0
+	RunEvent HudMedicCharged 0.0
 }
 
 event HudMedicChargedStop
 {
-	StopEvent HudMedicCharged 			0.0
-	StopEvent HudMedicChargedLoop 		0.0
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate IndividualChargesLabel		BgColor		"TanLight"	Linear 0.0 0.0001
 
-	Animate	ChargeMeter 				FgColor		"White"				Linear 	0	0.001
+	Animate ChargeLabel		FgColor		"TanLight"	Linear 0.0 0.0001
 
-	Animate	ChargeMeter1 				FgColor		"White"				Linear 	0	0.001
-	Animate	ChargeMeter2 				FgColor		"White"				Linear 	0	0.001
-	Animate	ChargeMeter3 				FgColor		"White"				Linear 	0	0.001
-	Animate	ChargeMeter4 				FgColor		"White"				Linear 	0	0.001
+	Animate	ChargeMeter 	FgColor		"White"		Linear 0.0 0.0001
+	
+	Animate	ChargeMeter1 	FgColor		"White"		Linear 0.0 0.0001
+	
+	Animate	ChargeMeter2 	FgColor		"White"		Linear 0.0 0.0001
+
+	Animate	ChargeMeter3 	FgColor		"White"		Linear 0.0 0.0001
+
+	Animate	ChargeMeter4 	FgColor		"White"		Linear 0.0 0.0001
 }
-
-//====================================
-
-event VideoCaptionFadeIn
-{
-	Animate VideoCaption	Alpha		"255"			Linear 0.0 0.1
-}
-
-event VideoCaptionFadeOut
-{
-	Animate VideoCaption	Alpha		"0"				Linear 0.0 0.1
-}
-
 //====================================
 
 // arena

@@ -37,7 +37,8 @@
 		"brighttext"	"0"
 		"font"			"HudFontGiantBold"
 	}
-		"ChargeLabelShadow"
+	
+	"ChargeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
@@ -56,29 +57,31 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontGiantBold"
-		fgcolor_override "Black"
+		"fgcolor"		"Black"
 	}
 
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"30"
-		"ypos"			"24"
-		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"15"
+		"TextinsetX"	"75"
+		"xpos"			"500"
+		"ypos"			"16"
+		"zpos"			"3"
+		"wide"			"95"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_IndividualUbercharges"
-		"labelText_minmode"		"#TF_IndividualUberchargesMinHUD"
+		"labelText"		"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"HudFontGiantBold"
+		"fgcolor_override"		"Black"
+		"bgcolor_override"		"TanLight"
 	}
 	
 	"ChargeMeter"
@@ -107,10 +110,10 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"30"
-		"ypos"			"38"
+		"xpos"			"0"
+		"ypos"			"172"
 		"zpos"			"2"
-		"wide"			"19"
+		"wide"			"213.5"
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -119,6 +122,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"		"Black"
+		"fgcolor_override"		"White"
 	}
 
 	"ChargeMeter2"
@@ -126,12 +131,10 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
-		"xpos"			"52"
-		"xpos_minmode"			"32"
-		"ypos"			"38"
-		"ypos_minmode"			"23"
+		"xpos"			"214"
+		"ypos"			"172"
 		"zpos"			"2"
-		"wide"			"19"
+		"wide"			"213.5"
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -140,6 +143,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"		"Black"
+		"fgcolor_override"		"White"
 	}
 
 	"ChargeMeter3"
@@ -147,12 +152,10 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"74"
-		"xpos_minmode"			"54"
-		"ypos"			"38"
-		"ypos_minmode"			"23"
+		"xpos"			"428"
+		"ypos"			"172"
 		"zpos"			"2"
-		"wide"			"19"
+		"wide"			"213.5"
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -161,6 +164,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"		"Black"
+		"fgcolor_override"		"White"
 	}
 
 	"ChargeMeter4"
@@ -168,12 +173,10 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"96"
-		"xpos_minmode"			"76"
-		"ypos"			"38"
-		"ypos_minmode"			"23"
+		"xpos"			"642"
+		"ypos"			"172"
 		"zpos"			"2"
-		"wide"			"19"
+		"wide"			"212"
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -182,6 +185,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"		"Black"
+		"fgcolor_override"		"White"
 	}
 	
 	"HealthClusterIcon"
@@ -199,12 +204,29 @@
 		"scaleImage"	"1"	
 	}	
 	
+	"ResistIconAnchor"
+	{
+		"ControlName"				         		"EditablePanel"
+		"fieldName"				         			"ResistIconAnchor"
+		"xpos"					         			"560"
+		"ypos"					         			"17"
+		"wide"					         			"2"
+		"tall"					         			"30"
+		"visible"				         			"1"
+		"enabled"				         			"1"
+		
+		"pin_to_sibling"							"HudMedicCharge"
+		"pin_corner_to_sibling"						"PIN_TOPCENTER"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+	
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ResistIcon"
 		"xpos"			"0"
-		"ypos"			"-25"
+		"ypos"			"0"
+		"zpos"			"3"
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"1"
@@ -212,6 +234,8 @@
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
+		"pin_to_sibling"			         		"ResistIconAnchor"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 	}
 	
 }

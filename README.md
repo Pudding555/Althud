@@ -8,7 +8,7 @@ Credits and Contributions
 
 Peachud for the inspiration
 
-Xhud for the rainbow Über bar
+SolarLightHUD for the Payload cart clipart
 
 Raysfire and the HUDS.tf discord for helping me
 

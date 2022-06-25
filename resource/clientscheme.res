@@ -3028,6 +3028,26 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		// LIST OF VANILLA TF2 BUILD FONT SIZES FOR SELF REFERENCE
+		// 
+		// 44 HudFontGiantBold
+		// 36 MatchmakingDialogTitle
+		// 35 HudFontBiggerBold
+		// 30 HudFontMediumBigBold
+		// 24 HudFontMediumBold
+		// 18 HudFontMediumSmallBold
+		// 16 HudFontSmallishBold
+		// 14 HudFontSmallBold
+		// 11 HudFontSmallestBold
+		// 12 ItemFontNameLarge
+		// 10 StorePromotionsTitle
+		// 9 FontStorePrice
+		// 8 ItemFontNameSmallest
+		// 6 FontStorePriceSmall
+		// 4 PerformanceModeSmall
+		
+		///////////////////////// CUSTOM FONTS THAT I USED /////////////////////////
 
 		"Wide Latin12"
 		{
@@ -3050,30 +3070,47 @@ Scheme
 			}
 		}
 	
-		"TF2 Build14"
+		"TF2 Build15"
 		{
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"14"
+				"tall"		"15"
 				"antialias" "1"
 			}
 		}
 		
-		"TF2 Build16"
+		"TF2 Build20"
 		{
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"16"
+				"tall"		"20"
 				"antialias" "1"
 			}
 		}
-
+		
+		"TF2 Build22"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"22"
+				"antialias" "1"
+			}
+		}
+		
+		"TF2 Build26"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"26"
+				"antialias" "1"
+			}
+		}
+		
 	}
-	
-//////////////////// INSTALLED CUSTOM FONTS //////////////////////////
-	
 
 	//
 	//////////////////// BORDERS //////////////////////////////
