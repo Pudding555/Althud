@@ -8,7 +8,7 @@ Credits and Contributions
 
 Peachud for the inspiration
 
-SolarLightHUD for the Payload cart clipart
+DarSitam for the Payload cart clipart
 
 Raysfire and the HUDS.tf discord for helping me
 
