@@ -3039,8 +3039,8 @@ Scheme
 		// 18 HudFontMediumSmallBold
 		// 16 HudFontSmallishBold
 		// 14 HudFontSmallBold
-		// 11 HudFontSmallestBold
 		// 12 ItemFontNameLarge
+		// 11 HudFontSmallestBold
 		// 10 StorePromotionsTitle
 		// 9 FontStorePrice
 		// 8 ItemFontNameSmallest
@@ -3107,6 +3107,30 @@ Scheme
 				"name"		"TF2 Build"
 				"tall"		"26"
 				"antialias" "1"
+			}
+		}
+		"HudFontMediumSmallBoldOutline"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"HudFontMediumBoldOutline"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
 			}
 		}
 		

@@ -45,9 +45,7 @@
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanLight"
 		"xpos"			"4"
-		"xpos_minmode"	"8"
 		"ypos"			"52"
-		"ypos_minmode"	"2"
 		"zpos"			"5"
 		"wide"			"55"
 		"tall"			"50"
@@ -79,7 +77,7 @@
 		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"east"
+		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
 		
 	}						

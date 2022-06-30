@@ -9,8 +9,8 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMediumSmallBold"
-		"delta_item_font_big"	"HudFontMediumBold"
+		"delta_item_font"		"HudFontMediumSmallBoldOutline"
+		"delta_item_font_big"	"HudFontMediumBoldOutline"
 	}
 	"DamageIndicator" // Part of this code was taken from Improved Default HUD! All credits go to its creators
 	{

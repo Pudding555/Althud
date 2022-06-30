@@ -1,6 +1,6 @@
 "Resource/HudLayout.res"
 {
-	HudPlayerStatus // Thanks VillagerGreenPreserver for the help with positioning!
+	HudPlayerStatus // Thanks Quickkennedy for the help with positioning!
 	{
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
@@ -40,7 +40,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c-100"
-		"ypos"	"0"
+		"ypos"	"-3"
 		"wide"	"200"
 		"tall"	"160"
 		
@@ -82,15 +82,10 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"362"	[$WIN32]
+		"ypos"			"c90"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
+		"wide"			"130"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -99,14 +94,10 @@
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"99999"	[$WIN32]
+		"ypos"			"99999"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"wide_minmode"	"50"
@@ -190,7 +181,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-55"	[$WIN32]
+		"xpos"					"c-50"	[$WIN32]
 		"ypos"					"c-30"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
@@ -246,7 +237,7 @@
 		"xpos"		"c-126"
 		"ypos"		"285"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"22"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
@@ -281,9 +272,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"
+		"ypos"		"c125"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"22"
 		"tall_minmode"	 	"28"
 		"priority"	"35"
 
@@ -315,8 +306,8 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"0"
+		"xpos"		"-17"
+		"ypos"		"210"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -1017,13 +1008,9 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
+		"xpos"			"c-65"	[$WIN32]
+		"ypos"			"c80"	[$WIN32]
+		"wide"			"130"
 		"tall"			"50"
 	}	
 

@@ -16,4 +16,4 @@ Hipnotize hud for part of the Icons and anchor system
 
 Improved Default hud for the damage numbers 
 
-VillageGreenPreserver for the help with the ammo and health positioning
+VillageGreenPreserver and Quickkennedy for the help with the ammo and health positioning
