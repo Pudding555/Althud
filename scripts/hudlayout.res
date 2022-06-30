@@ -16,9 +16,9 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c70"	[$WIN32]
-		"ypos"	"c78"	[$WIN32]
-		"wide"	"200"
+		"xpos"	"c+60"	[$WIN32]
+		"ypos"	"c21"	[$WIN32]
+		"wide"	"300"
 		"tall"	"150"
 		"textAlignment"	"center"	
 	}
