@@ -3109,6 +3109,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontSmallBoldOutline"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		"HudFontMediumSmallBoldOutline"
 		{
 			"1"
@@ -3180,6 +3192,7 @@ Scheme
 					"offset" "0 0"
 				}
 			}
+			
 		}
 		
 		TeamMenuBorder
