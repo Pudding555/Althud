@@ -1611,7 +1611,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2 Build"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -3109,6 +3109,38 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		"TF2 Build40"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		
+		"TF2 Build50"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"50"
+				"antialias" "1"
+			}
+		}
+		"HudFontSmallBoldOutline"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		"HudFontMediumSmallBoldOutline"
 		{
 			"1"
@@ -3180,6 +3212,7 @@ Scheme
 					"offset" "0 0"
 				}
 			}
+			
 		}
 		
 		TeamMenuBorder

@@ -1618,18 +1618,19 @@ event TeamStatus_PlayerDead
 
 	Animate DeathPanel ypos 19 Accel 0 0.2
 	Animate SkullPanel ypos 20 Accel 0 0.2
+	Animate respawntime ypos 0 Accel 0 0.2
 }
 
 event TeamStatus_PlayerAlive
 {
 	Animate DeathPanel ypos 0 Accel 0 0.2
 	Animate SkullPanel ypos 0 Accel 0 0.2
+	Animate respawntime ypos 0 Accel 0 0.2
 
 	SetVisible DeathPanel  0 0.2
 	SetVisible SkullPanel  0 0.2
 	SetVisible respawntime 0 0.2
 }
-
 event HudMatchStatus_ShowMatchWinDoors
 {
 	SetVisible	MatchDoors	1	0

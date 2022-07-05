@@ -458,13 +458,13 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
+		"ypos"	 "21"	[$WIN32]
 		"xpos"	 "r672"	[$X360]
 		"ypos"	 "35"	[$X360]
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
+		"MaxDeathNotices" "5"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "4"
