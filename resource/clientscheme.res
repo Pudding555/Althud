@@ -3129,6 +3129,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
 		"HudFontSmallBoldOutline"
 		{
 			"1"
