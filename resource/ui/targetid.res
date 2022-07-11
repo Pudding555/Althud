@@ -38,7 +38,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
+		"image"			"replay/thumbnails/BluePanel"
 		"image_lodef"	"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
@@ -60,7 +60,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
+		"image"			"replay/thumbnails/RedPanel"
 		"image_lodef"	"../hud/color_panel_red"
 		
 		"src_corner_height"		"23"				// pixels inside the image
