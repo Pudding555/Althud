@@ -65,7 +65,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"TextinsetX"	"75"
-		"xpos"			"500"
+		"xpos"			"517"
 		"ypos"			"16"
 		"zpos"			"3"
 		"wide"			"95"
@@ -197,8 +197,7 @@
 		"ypos"			"17"
 		"wide"			"36"
 		"tall"			"36"
-		"visible"		"1"
-		"visible_minmode"		"0"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	
@@ -208,7 +207,7 @@
 	{
 		"ControlName"				         		"EditablePanel"
 		"fieldName"				         			"ResistIconAnchor"
-		"xpos"					         			"560"
+		"xpos"					         			"575"
 		"ypos"					         			"17"
 		"wide"					         			"2"
 		"tall"					         			"30"
@@ -230,12 +229,10 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
 		"pin_to_sibling"			         		"ResistIconAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 	}
-	
 }

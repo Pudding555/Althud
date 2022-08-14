@@ -209,6 +209,7 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0 0
 	Animate PlayerStatusHealthValue 		FgColor		"0 150 255 255"		Linear 0 0
+	Animate PlayerStatusHealthValueSpectator		FgColor		"0 150 255 255"		Linear 0 0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -231,7 +232,8 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate PlayerStatusHealthValue 		FgColor		"255 0 0 255"		Linear 0 0
+	Animate PlayerStatusHealthValue 		FgColor		"255 50 50 255"		Linear 0 0
+	Animate PlayerStatusHealthValueSpectator FgColor "255 196 0 255" Linear 0 0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -248,17 +250,18 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 0.0
 	
 	Animate PlayerStatusHealthValue 		FgColor		"TanLight"		Linear 0 0
+	Animate PlayerStatusHealthValueSpectator		FgColor		"TanLight"		Linear 0 0
 }
 
 //===========================================
 
 event HudLowAmmoPulse
 {
-	Animate		AmmoInClip			FgColor		"255 0 0 255" 	Linear 	0.0 	0.0
+	Animate		AmmoInClip			FgColor		"255 50 50 255" 	Linear 	0.0 	0.0
 
-	Animate		AmmoInReserve		FgColor 	"255 0 0 255"	Linear 	0.0 	0.0
+	Animate		AmmoInReserve		FgColor 	"255 50 50 255"	Linear 	0.0 	0.0
 	
-	Animate 	AmmoNoClip 			FgColor 	"255 0 0 255" 	Linear 	0.0 	0.0
+	Animate 	AmmoNoClip 			FgColor 	"255 50 50 255" 	Linear 	0.0 	0.0
 
 }
 
@@ -710,16 +713,6 @@ event HasMOTDBlinkStop
 event HasNotificationsBlink
 {
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
-		
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
-	
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
-	
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
-
 	RunEvent HasNotificationsBlinkLoop		2.0
 }
 
@@ -1618,18 +1611,19 @@ event TeamStatus_PlayerDead
 
 	Animate DeathPanel ypos 19 Accel 0 0.2
 	Animate SkullPanel ypos 20 Accel 0 0.2
+	Animate respawntime ypos 0 Accel 0 0.2
 }
 
 event TeamStatus_PlayerAlive
 {
 	Animate DeathPanel ypos 0 Accel 0 0.2
 	Animate SkullPanel ypos 0 Accel 0 0.2
+	Animate respawntime ypos 0 Accel 0 0.2
 
 	SetVisible DeathPanel  0 0.2
 	SetVisible SkullPanel  0 0.2
 	SetVisible respawntime 0 0.2
 }
-
 event HudMatchStatus_ShowMatchWinDoors
 {
 	SetVisible	MatchDoors	1	0
