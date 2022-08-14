@@ -373,11 +373,11 @@
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-45"
-		"team1_max_expand"	"200"
+		"team1_max_expand"	"250"
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c47"
-		"team2_max_expand"	"200"
+		"team2_max_expand"	"250"
 
 		"playerpanels_kv"
 		{
@@ -404,14 +404,16 @@
 				"fieldName"		"playername"
 				"font"			"ItemFontAttribSmall"
 				"labelText"		"%playername%"
-				"xpos"			"4"
+				"xpos"			"0"
 				"ypos"			"23"
 				"zpos"			"5"
-				"wide"			"50"
+				"wide"			"f0"
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
+				"textAlignment"		"Center"
 				"visible"		"1"
+				"proportionaltoparent"			"1"
 			}
 			"classimage"
 			{
@@ -504,7 +506,7 @@
 			{
 				"ControlName"		"ScalableImagePanel"
 				"fieldName"		"ReadyBG"
-				"xpos"			"30"
+				"xpos"			"34"
 				"ypos"			"6"
 				"zpos"			"-1"
 				"wide"			"16"
@@ -554,7 +556,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontSmallBoldOutline"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"10"

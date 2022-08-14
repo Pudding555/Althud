@@ -182,7 +182,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-50"	[$WIN32]
-		"ypos"					"c-30"	[$WIN32]
+		"ypos"					"c-20"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -222,8 +222,6 @@
 		"enabled"	"1"
 		"xpos"		"10"	[$WIN32]
 		"ypos"		"r70"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
 		"wide"		"500"
 		"tall"		"200"
 		"TextFont"	"Default"	[$X360]
@@ -235,10 +233,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"290"
 		"wide"	 	"252"
-		"tall"	 	"22"
-		"tall_minmode"	 	"28"
+		"tall"	 	"30"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -255,10 +252,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"365"
 		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall"	 	"30"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
@@ -272,10 +268,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c125"
+		"ypos"		"c130"
 		"wide"	 	"252"
-		"tall"	 	"22"
-		"tall_minmode"	 	"28"
+		"tall"	 	"30"
 		"priority"	"35"
 
 		if_vr
@@ -458,13 +453,11 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
+		"ypos"	 "30"	[$WIN32]
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
+		"MaxDeathNotices" "5"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "4"
@@ -838,7 +831,7 @@
 		"ypos"					"215"
 		"wide"					"300"
 		"tall"					"300"
-		"zpos"					"4"
+		"zpos"					"9999"
 		"proportionaltoparent"	"1"
 	}
 
@@ -970,9 +963,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-225"
-		"ypos"			"c-59"
+		"ypos"			"c-55"
 		"wide"			"450"
-		"tall"			"200"
+		"tall"			"195"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -993,13 +986,10 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"	[$WIN32]
-		"tall"			"180"	[$X360]
+		"xpos"			"c-225"
+		"ypos"			"c-55"
+		"wide"			"450"
+		"tall"			"195"	[$WIN32]
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -1095,7 +1085,6 @@
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"5"
-		"ypos_lodef"				"75"
 		"zpos"					"2"
 		"wide"					"250"
 		"tall"					"80"
@@ -1108,7 +1097,6 @@
 		"enabled"				"1"
 		"xpos"					"c-90"
 		"ypos"					"-70"
-		"ypos_lodef"				"75"
 		"wide"					"180"
 		"tall"					"65"
 	}
@@ -1368,12 +1356,10 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"
+		"xpos"			"c-225"
+		"ypos"			"c-35"
+		"wide"			"450"
+		"tall"			"195"
 		"PaintBackgroundType"	"0"
 	}
 
