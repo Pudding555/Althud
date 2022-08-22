@@ -208,6 +208,11 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+		
+		/////////////////////////////////////////////////////////// CUSTOM ALTHUD COLORS
+		"MatchHUDRed"	"154 51 48 255"
+		"MatchHUDBlue"	"95 115 134 255"
+		"MatchHUDGray"	"56 56 56 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -1611,7 +1616,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2 Build"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -3048,24 +3053,24 @@ Scheme
 		// 4 PerformanceModeSmall
 		
 		///////////////////////// CUSTOM FONTS THAT I USED /////////////////////////
-
-		"Wide Latin12"
+		
+		
+		"TF2 Build5"
 		{
 			"1"
 			{
-				"name"		"Wide Latin"
-				"tall"		"12"
+				"name"		"TF2 Build"
+				"tall"		"5"
 				"antialias" "1"
 			}
 		}
-	
-	
-		"Wide Latin45"
+		
+		"TF2 Build7"
 		{
 			"1"
 			{
-				"name"		"Wide Latin"
-				"tall"		"45"
+				"name"		"TF2 Build"
+				"tall"		"7"
 				"antialias" "1"
 			}
 		}
@@ -3107,6 +3112,38 @@ Scheme
 				"name"		"TF2 Build"
 				"tall"		"26"
 				"antialias" "1"
+			}
+		}
+		
+		"TF2 Build40"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		
+		"TF2 Build50"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"50"
+				"antialias" "1"
+			}
+		}
+		"HudFontSmallBoldOutline"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
 			}
 		}
 		"HudFontMediumSmallBoldOutline"
@@ -3180,6 +3217,7 @@ Scheme
 					"offset" "0 0"
 				}
 			}
+			
 		}
 		
 		TeamMenuBorder
@@ -5945,11 +5983,6 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		
-		}
-		"8"
-		{
-			"font" "resource/fonts/Wide Latin.ttf"
-			"name" "Wide Latin"	
 		}
 	}
 }

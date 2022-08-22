@@ -75,10 +75,10 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"76"
-		"tall"			"23"
+		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"Red"
+		"bgcolor_override"	"152 52 49 255"
 		"proportionaltoparent"	"1"
 	}
 	
@@ -100,17 +100,17 @@
 	
 	"Gradient"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"Gradient"
 		"xpos"				"112"
-		"ypos"				"8"
-		"zpos"				"9"
+		"ypos"				"6"
+		"zpos"				"0"
 		"wide"				"76"
-		"tall"				"15"
+		"tall"				"17"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/Graypanel"
-		"scaleImage"		"1"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"	"56 56 56 255"
 		"proportionaltoparent"	"1"
 	}
 	

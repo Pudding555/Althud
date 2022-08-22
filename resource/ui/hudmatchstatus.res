@@ -281,7 +281,6 @@
 		"xpos_hidef"		"c-150"
 		"xpos_lodef"		"c-150"
 		"ypos"				"-3"	[$WIN32]
-		"ypos_minmode"		"-14"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"2"
 		"wide"				"110"
@@ -303,7 +302,6 @@
 		{
 			"xpos"					"cs-0.5"
 			"wide"					"130"
-			"ypos_minmode"			"0"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -318,20 +316,16 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"ItemFontNameLarge"
-			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
-			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
 			"ypos"			"11"
-			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
 			"zpos"			"3"
 			"wide"			"45"
-			"wide_minmode"	"30"
 			"wide_lodef"	"50"
 			"tall"			"31"
 			"visible"		"1"
@@ -345,10 +339,8 @@
 
 				"xpos"			"cs-0.5"
 				"ypos"			"12"
-				"ypos_minmode"	"12"
 				"tall"			"10"
 				"font"			"ItemFontNameLarge"
-				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
 			}
 		}	
@@ -373,11 +365,11 @@
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-45"
-		"team1_max_expand"	"200"
+		"team1_max_expand"	"250"
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c47"
-		"team2_max_expand"	"200"
+		"team2_max_expand"	"250"
 
 		"playerpanels_kv"
 		{
@@ -404,15 +396,22 @@
 				"fieldName"		"playername"
 				"font"			"ItemFontAttribSmall"
 				"labelText"		"%playername%"
-				"xpos"			"4"
-				"ypos"			"23"
+				"xpos"			"0"
+				"ypos"			"22"
 				"zpos"			"5"
-				"wide"			"50"
+				"wide"			"f0"
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
+				"textAlignment"		"Center"
 				"visible"		"1"
+				"enabled"	"1"
+				"proportionaltoparent"			"1"
+				"xpos_minmode" "9999"
+				"visible_minmode"	"0"
+				"enabled_minmode"	"0"
 			}
+			
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
@@ -504,7 +503,7 @@
 			{
 				"ControlName"		"ScalableImagePanel"
 				"fieldName"		"ReadyBG"
-				"xpos"			"30"
+				"xpos"			"34"
 				"ypos"			"6"
 				"zpos"			"-1"
 				"wide"			"16"
@@ -554,7 +553,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontSmallBoldOutline"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"10"

@@ -13,11 +13,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../replay/thumbnails/WhitePanel"
+		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
-		"teambg_1"		"replay/thumbnails/WhitePanel"
-		"teambg_2"		"replay/thumbnails/RedPanel"
-		"teambg_3"		"replay/thumbnails/BluePanel"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -39,7 +39,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -75,9 +74,8 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"HudFontSmall"
-		"font_minmode"	"TFFontLarge"
 		"xpos"			"8"
-		"ypos"			"3"
+		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -86,20 +84,18 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
+		"labelText_minmode"		"[REDACTED]"
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		
-		"pin_to_sibling"							"TargetIDNameAnchor"
-		"pin_corner_to_sibling"						"PIN_LEFT"
 	}
 	"TargetDataLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"FontStoreOriginalPrice"
-		"xpos"			"0"
-		"ypos"			"11"	[$WIN32]
+		"xpos"			"8"
+		"ypos"			"14"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -111,19 +107,14 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		
-		"pin_to_sibling"							"TargetIDInfoAnchor"
-		"pin_corner_to_sibling"						"PIN_LEFT"
 	}
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"0"
-		"xpos_minmode"	"0"
-		"ypos"			"3"
-		"ypos_minmode"	"0"
-		"wide"			"32"
+		"xpos"			"4"
+		"ypos"			"-1"
+		"wide"			"34"
 		"tall"			"32"
 		"visible"		"0"
 		"enabled"		"0"	
@@ -132,15 +123,14 @@
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-		"bgcolor_override"	"56 56 56 255"
 	}	
 	
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"43"
-		"ypos"			"14"
+		"xpos"			"45"
+		"ypos"			"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -154,10 +144,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"10"
-		"xpos_minmode"	"30"
-		"ypos"			"20"
-		"ypos_minmode"	"16"
+		"xpos"			"45"
+		"ypos"			"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -231,7 +219,6 @@
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"TFFontMedium"
-			"font_minmode"	"DefaultVerySmall"
 			"xpos"			"0"
 			"ypos"			"22"
 			"zpos"			"1"
@@ -252,7 +239,6 @@
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
-		"xpos_minmode"	"6"
 		"ypos"			"6"	[$WIN32]
 		"ypos"			"0"	[$X360]
 		"zpos"			"99"
