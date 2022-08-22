@@ -762,6 +762,27 @@
 		"fgcolor_override" "200 80 60 255"
 	}
 	
+	"CancelShortcut" [$WIN32] 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelShortcut"
+		"xpos"			"99999"
+		"ypos"			"r38"
+		"zpos"			"6"
+		"wide"			"100"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&Q"
+		"textAlignment"	"center"
+		"Command"		"vguicancel"
+		"font"			"HudFontSmallBold"
+		"fgcolor_override" "200 80 60 255"
+	}
+	
 	"EditLoadoutButton"
 	{
 		"ControlName"		"CExImageButton"

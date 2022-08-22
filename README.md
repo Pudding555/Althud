@@ -6,9 +6,11 @@ Hiiiiiii so the objective of this hud is to basically make a hud that fits the T
 
 - Peachud for the inspiration
 - DarSitam for the CTF Hud and Payload cart clipart
-- Raysfire and the HUDS.tf discord for helping me
-- Hipnotize hud for part of the Icons and anchor system
+- Raysfire for his tutorials
+- HUDS.tf discord for helping me
+- Hipnotize hud for part of the icons, the anchor system, and team buttons on the loadout screen
 - Improved Default hud for the damage numbers 
 - VillageGreenPreserver and Quickkennedy for the help with the ammo and health positioning
-- SexyLion for the Music Changer button
-- LionHUD for the Class selections screen and a few other things
+- SexyLion for the music changer button
+- LionHUD for the class selection screen and a few other things
+- CriticalFlaw for menu shortcuts
