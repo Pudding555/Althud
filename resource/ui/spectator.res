@@ -280,6 +280,9 @@
 		"fieldName"		"itempanel"
 		"xpos"			"0"
 		"ypos"			"0"
+		"xpos_minmode			"9999"
+		"enabled_minmode			"0"
+		"visible_minmode			"0"
 		"zpos"			"10"
 		"wide"			"190"
 		"tall"			"100"
@@ -339,6 +342,7 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
+		"font_minmode"	""
 		"visible"		"1"
 		"enabled"		"1"
 	}		

@@ -1579,11 +1579,8 @@
 			"labelText"				"Streamer Mode"
 			"font"					"FontStorePrice"
 			"textAlignment"		"West"
-			"command"				"engine toggle cl_hud_minmode; toggle cl_enable_text_chat; toggle voice_modenable; cl_spraydisable 1; hud_reloadscheme; toggle mat_aaquality"
+			"command"				"engine toggle cl_hud_minmode; cl_enable_text_chat 0; voice_modenable 0; cl_spraydisable 1; hud_reloadscheme; toggle mat_aaquality"
 			"actionsignallevel"		"2"
-
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				"UI/buttonclickrelease.wav"
 
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"		"Blank"
@@ -1610,14 +1607,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"StreamerStartupModeLabel"
-			"xpos"			"96"
+			"xpos"			"104"
 			"ypos"			"203"
 			"zpos"			"20"
 			"wide"				"225"
 			"tall"				"18"
 			"fgcolor"		"255 75 75 255"
-			"labelText"				"If Streamer mode isn't properly working please restart your game"
-			"font"					"FontStorePriceSmall"
+			"labelText"				"Please enable streamer mode before joining a server"
+			"font"					"TF2 Build7"
 			"textAlignment"		"West"
 		}
 		
@@ -2956,7 +2953,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"Command"		"engine con_enable 1; toggleconsole"
+		"Command"		"engine toggleconsole"
 		"border"		"MainMenuBGBorder"
 
 		"sound_depressed"	"UI/buttonclick.wav"

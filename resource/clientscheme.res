@@ -1395,10 +1395,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"TF2 Build"
 				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"500"
+				"antialias"	"1"
+				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}

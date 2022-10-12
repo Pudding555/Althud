@@ -19,6 +19,34 @@
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
 	}
 
+	"AirblastMeter" //YET TO BE IMPLEMENTED
+	{
+		"ControlName"	"Editablepanel"
+		"fieldName"		"AirblastMeter"
+		"xpos"			"35" 
+		"ypos"			"55"
+		"zpos"			"1"
+		"wide"			"80"
+		"tall"			"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"bgcolor_override"		"TanLight"		
+	}
+
+	"AirblastMeterEmpty"
+	{
+		"ControlName"	"Editablepanel"
+		"fieldName"		"AirblastMeterEmpty"
+		"xpos"			"35"
+		"ypos"			"55"
+		"zpos"			"0"
+		"wide"			"80"
+		"tall"			"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"bgcolor_override"		"Black"
+	}
+
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"

@@ -398,7 +398,7 @@
 				"labelText"		"%playername%"
 				"xpos"			"0"
 				"ypos"			"22"
-				"zpos"			"5"
+				"zpos"			"5"	
 				"wide"			"f0"
 				"tall"			"8"
 				"autoResize"	"0"
@@ -407,9 +407,16 @@
 				"visible"		"1"
 				"enabled"	"1"
 				"proportionaltoparent"			"1"
-				"xpos_minmode" "9999"
-				"visible_minmode"	"0"
+				
+				"xpos_minmode" 			"9999"
+				"ypos_minmode" 			"9999"
+				"zpos_minmode"			"0"
+				"visible_minmode"		"0"
 				"enabled_minmode"	"0"
+				"wide_minmode"			"0"
+				"tall_minmode"				"0"
+				"font_minmode"			"Please for the love of god disappear you piece of shit"
+
 			}
 			
 			"classimage"
