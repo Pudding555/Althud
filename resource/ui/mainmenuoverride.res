@@ -1169,6 +1169,173 @@
 			"cvar_name"		"viewmodel_fov"
 		}
 		
+		"Line1"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"Line1"
+			"xpos"					"5"
+			"ypos"					"110"
+			"zpos"					"1"
+			"wide"					"290"
+			"tall"					"2"
+			"bgcolor_override" "TanLight"
+		}
+		
+		"Addcond16Label"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"Addcond16Label"
+			"font"			"FontStorePrice"
+			"labelText"		"Addcond 16"
+			"textAlignment"	"west"
+			"xpos"			"5"
+			"ypos"			"117"
+			"zpos"			"20"
+			"wide"			"100"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"TanLight"
+			"Command"			"engine sv_cheats 1; addcond 16"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+		}
+		
+		"Addcond26Label"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"Addcond26Label"
+			"font"			"FontStorePrice"
+			"labelText"		"Addcond 26"
+			"textAlignment"	"west"
+			"xpos"			"5"
+			"ypos"			"132"
+			"zpos"			"20"
+			"wide"			"100"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"TanLight"
+			"Command"			"engine sv_cheats 1; addcond 26"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+		}
+		
+		"Addcond29Label"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"Addcond29Label"
+			"font"			"FontStorePrice"
+			"labelText"		"Addcond 29"
+			"textAlignment"	"west"
+			"xpos"			"5"
+			"ypos"			"147"
+			"zpos"			"20"
+			"wide"			"100"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"TanLight"
+			"Command"			"engine sv_cheats 1; addcond 29"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+		}
+		
+		"Addcond56Label"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"Addcond56Label"
+			"font"			"FontStorePrice"
+			"labelText"		"Addcond 56"
+			"textAlignment"	"west"
+			"xpos"			"5"
+			"ypos"			"162"
+			"zpos"			"20"
+			"wide"			"100"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"TanLight"
+			"Command"			"engine sv_cheats 1; addcond 56"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+		}
+		
+		"Addcond57Label"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"Addcond57Label"
+			"font"			"FontStorePrice"
+			"labelText"		"Addcond 57"
+			"textAlignment"	"west"
+			"xpos"			"5"
+			"ypos"			"177"
+			"zpos"			"20"
+			"wide"			"100"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"TanLight"
+			"Command"			"engine sv_cheats 1; addcond 57"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+		}
+	
+		"CharityLabel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"CharityLabel"
+			"xpos"			"135"
+			"ypos"			"115"
+			"zpos"			"20"
+			"wide"			"130"
+			"tall"			"80"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"TanLight"
+			
+			"CharityURL"
+			{
+				"ControlName"	"URLLabel"
+				"fieldname"	"CharityURL"
+				"font"			"HudFontMediumBold"
+				"labelText"		"Free Unusuals!"
+				"textAlignment"	"center"
+				"centerwrap"	"1"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"5"
+				"wide"			"130"
+				"tall"				"80"
+				"visible"			"1"
+				"enabled"	"1"
+				"URLText"		"https://www.globalgiving.org"
+			}
+		}
+	
+		"Line2"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"Line2"
+			"xpos"					"5"
+			"ypos"					"200"
+			"zpos"					"1"
+			"wide"					"290"
+			"tall"					"2"
+			"bgcolor_override" "TanLight"
+		}
+		
 		 "MusicChangeButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1579,11 +1746,8 @@
 			"labelText"				"Streamer Mode"
 			"font"					"FontStorePrice"
 			"textAlignment"		"West"
-			"command"				"engine toggle cl_hud_minmode; toggle cl_enable_text_chat; toggle voice_modenable; cl_spraydisable 1; hud_reloadscheme; toggle mat_aaquality"
+			"command"				"engine toggle cl_hud_minmode; cl_enable_text_chat 0; voice_modenable 0; cl_spraydisable 1; hud_reloadscheme; toggle mat_aaquality"
 			"actionsignallevel"		"2"
-
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				"UI/buttonclickrelease.wav"
 
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"		"Blank"
@@ -1610,14 +1774,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"StreamerStartupModeLabel"
-			"xpos"			"96"
+			"xpos"			"104"
 			"ypos"			"203"
 			"zpos"			"20"
 			"wide"				"225"
 			"tall"				"18"
 			"fgcolor"		"255 75 75 255"
-			"labelText"				"If Streamer mode isn't properly working please restart your game"
-			"font"					"FontStorePriceSmall"
+			"labelText"				"Please enable streamer mode before joining a server"
+			"font"					"TF2 Build7"
 			"textAlignment"		"West"
 		}
 		
@@ -2956,7 +3120,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"Command"		"engine con_enable 1; toggleconsole"
+		"Command"		"engine toggleconsole"
 		"border"		"MainMenuBGBorder"
 
 		"sound_depressed"	"UI/buttonclick.wav"

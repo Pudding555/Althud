@@ -42,6 +42,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 196"
 		"PaintBackgroundType"	"0"
+		
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}
 
 	"StreamLabel"
@@ -64,6 +69,11 @@
 		"visible_minmode"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
+		
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}
 	
 	"BlueScoreBG"

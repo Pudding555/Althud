@@ -63,7 +63,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"HudFontMediumSmallSecondary"
-		"xpos"			"52+140"
+		"xpos"			"65+140"
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"110"
@@ -84,7 +84,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"HUDFontSmall"
-		"xpos"			"52+140"
+		"xpos"			"65+140"
 		"ypos"			"45"
 		"zpos"			"1"
 		"wide"			"110"
@@ -105,7 +105,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"15+140"
-		"xpos_minmode"	"232"
+		"xpos_minmode"	"228"
 		"ypos"			"32"
 		"wide"			"64"
 		"tall"			"32"
@@ -117,5 +117,21 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}	
+		"SpyIcon"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"SpyIcon"
+		"xpos"			"320"
+		"ypos"			"32"
+		"zpos"			"1"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"hud_spy_disguise_menu_icon"
+		"iconColor"		"255 255 255 255"
+		"visible_minmode"	"0"
+	}
 	
 }

@@ -44,6 +44,11 @@
 //
 //  SetString <panel name> <string varname> <stringvalue> <set time>
 
+event AirblastCooldown //YET TO BE IMPLEMENTED
+{
+	Animate AirblastMeter wide "0" Linear 0.0 0.75
+}
+
 event LevelInit
 {
 }

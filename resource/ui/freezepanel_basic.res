@@ -117,6 +117,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Killer"
+			"labelText_minmode"	"[REDACTED]"
 			"textAlignment"		"Left"
 			"dulltext"		"0"
 			"brighttext"		"0"
@@ -218,6 +219,9 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"xpos_minmode"			"9999"
+			"enabled_minmode"			"0"
+			"visible_minmode"			"0"
 		}
 	}		
 	
@@ -322,6 +326,9 @@
 			"image"			""
 			"scaleImage"		"1"	
 			"color_outline"		"52 48 45 255"
+			"xpos_minmode"			"9999"
+			"enabled_minmode"			"0"
+			"visible_minmode"			"0"
 		}	
 		
 		"NemesisSubPanel"

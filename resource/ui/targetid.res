@@ -108,13 +108,14 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"4"
 		"ypos"			"-1"
-		"wide"			"34"
+		"wide"			"45"
 		"tall"			"32"
 		"visible"		"0"
 		"enabled"		"0"	
@@ -129,8 +130,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"45"
-		"ypos"			"16"
+		"xpos"			"55"
+		"ypos"			"17"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -144,7 +145,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"45"
+		"xpos"			"55"
 		"ypos"			"16"
 		"zpos"			"12"
 		"wide"			"8"

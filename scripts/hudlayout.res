@@ -215,7 +215,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"cs-0.5"	[$WIN32]
-		"ypos"		"r140"	[$WIN32]
+		"ypos"		"r117"	[$WIN32]
 		"wide"		"500"
 		"tall"		"200"
 		"TextFont"	"Default"	[$X360]
@@ -246,7 +246,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"365"
+		"ypos"		"340"
 		"wide"	 	"252"
 		"tall"	 	"30"
 		"priority"	"40"
@@ -554,27 +554,22 @@
 		"ItemFontPulsing"		"Default"
 	}
 	
-	HudCloseCaption
+	"HudCloseCaption"
 	{
-		"fieldName" "HudCloseCaption"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
-		"wide"		"500"
-		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
-
-		"BgAlpha"	"128"
-
-		"GrowTime"		"0.25"
-		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
+		"fieldName" 		"HudCloseCaption"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"r150"
+		"ypos"				"r180"
+		"wide"				"145"
+		"tall"				"80"
+		"BgAlpha"			"128"
+		"GrowTime"			"0.25"
+		"ItemHiddenTime"	"0.2"
+		"ItemFadeInTime"	"0.15"
 		"ItemFadeOutTime"	"0.3"
-		"topoffset"		"0"
+		"topoffset"			"0"
 	}
-
 	HudHistoryResource 
 	{
 		"fieldName" "HudHistoryResource"
@@ -815,17 +810,13 @@
 
 	}
 
-	WinPanel
+	"WinPanel"
 	{
-		"fieldName"				"WinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
-		"tall"					"300"
-		"zpos"					"9999"
-		"proportionaltoparent"	"1"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"f0"
+		"tall"										"f0"
 	}
 
 	ArenaWinPanel
@@ -833,10 +824,11 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-225"
-		"ypos"					"250"
-		"wide"					"450"
-		"tall"					"218"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"f0"
+		"tall"										"f0"
 	}
 	
 	PVEWinPanel
@@ -1042,8 +1034,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"				"90"
 		"wide"					"320"
 		"tall"					"150"
 	}
@@ -1099,8 +1089,8 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
+		"xpos"					"c-67"
+		"ypos"					"10"
 		"ypos_lodef"				"75"
 		"wide"					"125"
 		"tall"					"70"
@@ -1165,13 +1155,13 @@
 	HudArenaPlayerCount [$WIN32]
 	{
 		"fieldName"				"HudArenaPlayerCount"		
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
+		"visible"				"0"
+		"enabled"			"0"
+		"xpos"					"99999"
+		"ypos"					"99999"
 		"wide"					"f0"
 		"tall"					"50"
-	}	
+	}
 	
 	"HudAchievementTracker"
 	{
@@ -1410,6 +1400,7 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
+		"player_name_font_minmode" ""
 	}
 
 	MatchSummary
