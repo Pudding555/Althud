@@ -179,7 +179,7 @@
 				
 		"if_multiple_trains"
 		{
-			"ypos"			"48"
+			"ypos"			"99999"
 			"zpos"			"8"
 			"wide"			"52"
 			"tall"			"170"

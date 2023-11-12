@@ -34,8 +34,10 @@
 			"tall"					"480"
 
 			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
+			
+			"team2_player_base_y"			"0"
 			"team2_player_delta_x"			"52"
+			"team2_player_delta_y"			"0"			
 		}
 		
 		if_competitive
@@ -439,11 +441,11 @@
 		"ypos"			"22"
 		"zpos"			"-1"
 		"wide"			"250"
-		"tall"			"45"
+		"tall"			"23"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"replay/thumbnails/GrayPanel"
 		
 		if_mvm
@@ -720,20 +722,20 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"TFFontSmall"
+		"font"			"FontStorePrice"
 		"fgcolor"		"TanLight"
-		"xpos"			"75"
-		"ypos"			"55"
+		"xpos"			"0"
+		"ypos"			"45"
 		"zpos"			"1"
 		"wide"			"250"
-		"tall"			"35"
+		"tall"			"10"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%winconditions%"
-		"textAlignment"		"north-west"
+		"textAlignment"		"center"
 		
 		if_mvm
 		{
@@ -807,8 +809,8 @@
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"wrap"			"0"
 		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
@@ -858,7 +860,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"wrap"			"0"
 		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
@@ -871,7 +873,7 @@
 			"ypos"			"106"
 			"wide"			"190"
 			"tall"			"20"
-			"visible"		"1"
+			"visible"		"0"
 			"fgcolor"		"Black"
 		}
 

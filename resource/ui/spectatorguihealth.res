@@ -4,26 +4,26 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"7"
-		"ypos"			"7"
+		"xpos"			"1"
+		"ypos"			"s0.6" //7
 		"zpos"			"4"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"6"
-		"ypos"			"6"
+		"xpos"			"s0.001" //-1
+		"ypos"			"s0.5" //6
 		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -31,13 +31,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BuildingStatusHealthImageBG"
-		"xpos"			"2"
+		"xpos"			"15"
 		"ypos"			"3"
 		"zpos"			"2"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"27"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"	
 	}	
@@ -45,7 +45,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"11"
+		"xpos"			"22"
 		"ypos"			"7"
 		"zpos"			"3"
 		"wide"			"15"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpectator"
-		"xpos"			"-2"
+		"xpos"			"10"
 		"ypos"			"-7"
 		"zpos"			"5"
 		"wide"			"40"
@@ -75,7 +75,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpectatorShadow"
-		"xpos"			"-1"
+		"xpos"			"11"
 		"ypos"			"-6"
 		"zpos"			"5"
 		"wide"			"40"

@@ -4,15 +4,15 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"150"
+		"xpos"			"999999"
 		"ypos"			"2"
 		"zpos"			"-1"
 		"wide"			"200"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_brown"
 
 		"src_corner_height"	"22"				// pixels inside the image
@@ -37,6 +37,31 @@
 		"enabled"		"1"
 		"textAlignment"				"center"
 		"labelText"					"%wave_count%"
+		"xpos_minmode"	"200"
+		"ypos_minmode"	"2"
+		"wide_minmode"	"200"
+		"textAlignment_minmode"		"center"
+	}
+	
+		"WaveCountLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"WaveCountLabel"
+		"font"			"HudFontSmallestBold"
+		"fgcolor"		"Black"
+		"xpos"			"201"
+		"ypos"			"16"
+		"zpos"			"7"
+		"wide"			"200"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"				"center"
+		"labelText"					"%wave_count%"
+		"xpos_minmode"	"201"
+		"ypos_minmode"	"2"
+		"wide_minmode"	"200"
+		"textAlignment_minmode"		"center"
 	}
 	
 	"SeparatorBar"
@@ -86,14 +111,18 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
-		"xpos"			"211"
+		"xpos"			"cs-0.5"
 		"ypos"			"15"
 		"zpos"			"3"
-		"wide"			"178"
+		"wide"			"300"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
+		"proportionaltoparent"	"1"
 		"image"			"../HUD/tournament_panel_blu"
+		"xpos_minmode"	"cs-0.5"
+		"ypos_minmode"	"2"
+		"wide_minmode"	"300"
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
@@ -106,17 +135,18 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"			"210"
+		"xpos"			"149"
 		"ypos"			"14"
 		"zpos"			"3"
-		"wide"			"180"
+		"wide"			"303"
 		"tall"			"17"
-		"xpos_minmode"	"230"
-		"ypos_minmode"	"7"
-		"wide_minmode"	"140"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_tan"
+		
+		"xpos_minmode"	"149"
+		"ypos_minmode"	"1"
+		"wide_minmode"	"303"
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"

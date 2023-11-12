@@ -241,6 +241,9 @@
 		"zpos"					"100"
 		"wide"					"500"
 		"tall"	 				"28"
+		"xpos_minmode"			"9999"
+		"enabled_minmode"			"0"
+		"visible_minmode"			"0"
 
 		"CarryingBackground"
 		{

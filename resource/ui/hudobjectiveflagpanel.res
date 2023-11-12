@@ -118,15 +118,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-84"
+		"xpos"			"c-30"
 		"ypos"			"r45"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
-		"labelText"		"%redscore%"
+		"textAlignment"	"west"	
+		"labelText"		"%bluescore%"
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"TanLight"		
 		
@@ -150,7 +150,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-84"
+		"xpos"			"c-30"
 		"ypos"			"r43"
 		"zpos"			"7"
 		"wide"			"75"
@@ -159,8 +159,8 @@
 		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
-		"labelText"		"%redscore%"
+		"textAlignment"	"west"	
+		"labelText"		"%bluescore%"
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"Black"		
 		
